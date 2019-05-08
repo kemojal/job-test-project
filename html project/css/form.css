@@ -1,0 +1,267 @@
+.scrollbar::-webkit-scrollbar {
+	width: 4px;
+	background-color: #EEE;
+	border-radius: 5px
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: #CCC
+}
+.label-item {
+	font-size: .875em;
+	color: #666
+}
+
+.input-wrapper,
+.search-input-wrapper {
+	position: absolute;
+	top: -8px;
+	width: 200px;
+	height: 35px;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #FFF;
+	border: 1px solid transparent;
+	margin-left: 10px;
+	padding: 4px 10px;
+	cursor: pointer
+}
+
+.search-input-wrapper {
+	width: 250px
+}
+
+.input-wrapper-overlay.placeholder:before {
+	content: attr(data-label);
+	position: absolute;
+	color: #CCC;
+	font-size: .875em;
+	top: 8px
+}
+
+.input-wrapper-overlay {
+	width: 155px;
+	overflow: hidden
+}
+
+.input-wrapper-overlay:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: transparent
+}
+.btn-red-add {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+}
+.input-wrapper.current .input-wrapper-overlay:after {
+	content: none
+}
+
+.search-input {
+	width: 100%;
+	border: 0
+}
+.search-input:focus,
+.small-btnearchBar-search:focus {
+	outline: none
+}
+
+.search-input.conditions {
+	width: 300%
+}
+
+.search-input::-webkit-input-placeholder {
+	color: #CCC;
+	font-weight: 400;
+	font-size: .875em
+}
+
+.search-input::-moz-placeholder {
+	color: #CCC;
+	font-weight: 400;
+	font-size: .875em
+}
+
+.search-input:-ms-input-placeholder {
+	color: #CCC;
+	font-weight: 400;
+	font-size: .875em
+}
+
+.search-input:-moz-placeholder {
+	color: #CCC;
+	font-weight: 400;
+	font-size: .875em
+}
+
+.search-input li {
+	display: inline-block
+}
+
+.condition-tag {
+	display: inline-block;
+	padding: 3px 8px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: #000;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: .75em;
+	cursor: pointer
+}
+
+.condition-tag.select {
+	background-color: #002a76
+}
+
+a.condition-tag,
+.condition-tag:not([href]):not([tabindex]),
+.condition-tag:not([href]):not([tabindex]):hover {
+	color: #FFF;
+	text-decoration: none
+}
+
+.toggle-tag {
+	display: inline-block;
+	height: 17px
+}
+
+.toggle-tag img {
+	margin: -3px 0;
+	border-radius: 50%;
+	background-color: transparent;
+	cursor: pointer
+}
+
+.toggle-tag:hover img {
+	background-color: rgba(255, 255, 255, .3)
+}
+
+.add-btn {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	cursor: pointer
+}
+.input-wrapper.current {
+	position: absolute;
+	height: 140px;
+	border: 1px solid #CCC;
+	z-index: 1
+}
+
+.input-wrapper.current .input-wrapper-overlay {
+	width: 100%;
+	height: 130px;
+	overflow-y: scroll
+}
+
+.input-wrapper.current .search-input.conditions {
+	width: 100%
+}
+
+.input-wrapper.current .add-btn {
+	display: none
+}
+
+.small-btnearchBar-search {
+	width: 135px;
+	padding: 8px 0;
+	text-align: center;
+	border-radius: 18px;
+	background-color: #c33;
+	border: 0;
+	cursor: pointer
+}
+
+.small-btnearchBar-search img {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto
+}
+
+.category_separation {
+	border-right: 1px solid #CCC;
+	padding: 5px
+}
+
+.category_style {
+	position: relative;
+	display: block;
+	font-size: .75em;
+	color: #666;
+	padding: 2px 10px;
+	margin: 0 5px;
+	border-radius: 10px;
+	min-height: 20px
+}
+
+.category_style:not([href]):not([tabindex]):hover,
+.category_style.focus,
+.category_style:not([href]):not([tabindex]).focus {
+	color: #FFF;
+	background-color: #c33
+}
+
+.category_style.select {
+	background-color: #FFF
+}
+
+.category_style.select:after {
+	content: '';
+	width: 4px;
+	height: 4px;
+	background-color: #4faf40;
+	border-radius: 50%;
+	position: absolute;
+	top: 8px;
+	right: 10px
+}
+
+.condition-tags li {
+	display: inline-block
+}
+
+.searchbar-btn .text-container {
+	color: #FFF;
+	font-weight: 700
+}
+
+.searchbar-btn.ghost .text-container {
+	color: #c33
+}
+
+.search-bar-btn {
+	display: inline-block;
+	width: 25px;
+	height: 25px
+}
+
+.placeholder_style::placeholder {
+	color: #CCC
+}
+
+.placeholder_style:-ms-input-placeholder {
+	color: #CCC
+}
+
+.placeholder_style::-ms-input-placeholder {
+	color: #CCC
+}
+
+
+
