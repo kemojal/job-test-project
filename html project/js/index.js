@@ -188,11 +188,7 @@ $(document).on('click', '.add_btn',
 // deleting the tags
 $(document).on('click','.Benchmark.del_btn', function (e) {
 
-    //e.preventDefault();
-    //e.stopPropagation();
-
-    alert(" haha haha  ")
-
+  
     var type = $(this).closest('.Benchmark').data('id');
     var str = $(this).closest('.Benchmark').find('.condition-tag-content').text();
     var ids = $(this).closest('.Benchmark').find('.ids').text();
@@ -232,17 +228,10 @@ $(document).on('click','.Benchmark.del_btn', function (e) {
             $('.wrapper-1').removeClass('current');
             $('.wrapper-2').removeClass('current');
         }
-        //$('.sidebar_sec').removeClass('current');
-        //$(this).addClass('current')
-        //$(this).parent().find('.input-pop').addClass('translate')
+        
          if ($(this).hasClass('current')){
-           // $('input-pop').addClass('translate');
-           // $(this).removeClass('current')
+          
          }else{
-           // $('.search-popover-container .input-wrapper').removeClass('current');
-            //$('.w-searchBar-top .input-wrapper').removeClass('current');
-            //$('.sidebar_sec').removeClass('current');
-           // $('.w-searchBar-top .input-wrapper').removeClass('current');
             $(this).addClass('current')
             $(this).parent().find('.input-pop').addClass('translate')
          }
@@ -252,15 +241,9 @@ $(document).on('click','.Benchmark.del_btn', function (e) {
  )
 
  $('.checkbox-icon').on('click', function(){
-     alert("checked");
+     //alert("checked");
  }
  )
 
- /*$(document).ready(function () {
-    $("ul#sortable1 li").click(function() {
-    alert("Clicked list." + $(this).text());
-});
-});
-*/
 
 
