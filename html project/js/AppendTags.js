@@ -47,7 +47,6 @@ $.each(positionTags, function(index, value){
     inHTML += newItem;  
 });
 
-//$("#m_add_opening_list").html(inHTML);
 
 let append_layer = function(){
     
