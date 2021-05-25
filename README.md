@@ -1,3 +1,20 @@
+
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t1.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t2.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t3.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t4.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t5.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t6.gif)
+
+![](https://github.com/kemojal/job-test-project/blob/master/gifs/t7.gif)
+
+
 # Job Test html, CSS, Javascript project
 
 # Used Libraries
@@ -26,18 +43,3 @@
 3. globalStyle.css ==> contain global styles such as colors, button styles , font family.... 
 4. media-queries.css ==> handles the media queries 
 5. responsive.css ==> contain navebar popover, logo.... css styles
-
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t1.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t2.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t3.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t4.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t5.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t6.gif)
-
-![](https://github.com/kemojal/job-test-project/blob/master/gifs/t7.gif)
